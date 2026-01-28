@@ -13,7 +13,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (Other.gameObject.CompareTag("Ball"))
         {
             Rigidbody rigidBody = Other.gameObject.GetComponent<Rigidbody>();
-            rigidBody.linearVelocity = velicity 200
+            rigidBody.linearVelocity = new Vector3(200f, 0, 0);
         }
     }
     // Update is called once per frame
